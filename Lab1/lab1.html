@@ -7,6 +7,7 @@
     <title>Gaming Hub</title>
     <!-- Favicon -->
     <link rel="icon" type="image/png" href="180px-Amulet_wilka.png">
+    <link rel="stylesheet" href="practice.css">
 </head>
 <body>
 
@@ -16,7 +17,7 @@
         <nav>
             <a href="#home">Home</a> |
             <a href="#reviews">Reviews</a> |
-            <a href="#news">Game News</a> |
+            <a href="#news">Game News</a>
         </nav>
     </header>
 
@@ -25,38 +26,45 @@
         <h2>About Us</h2>
         <p>Gaming Hub is your number one source for game reviews, news, and updates. Whether you're a casual gamer or a competitive pro, you'll find something to love here.</p>
 
-        <h3>Popular Genres</h3>
-        <ul>
-            <li>Action</li>
-            <li>Adventure</li>
-            <li>RPG</li>
-            <li>Strategy</li>
-        </ul>
+        <div class="genre-list">
+            <h3>Popular Genres</h3>
+            <ul>
+                <li>Action</li>
+                <li>Adventure</li>
+                <li>RPG</li>
+                <li>Strategy</li>
+            </ul>
+        </div>
 
         <!-- Image -->
-        <img src="the-witcher-3-best-rpgs.png" alt="Geralt" width="500">
+        <div class="image-container">
+            <img src="the-witcher-3-best-rpgs.png" alt="Geralt from The Witcher">
+        </div>
     </section>
 
     <!-- Reviews Section -->
     <section id="reviews">
         <h2>Latest Game Reviews</h2>
-        <table>
-            <tr>
-                <th>Game Title</th>
-                <th>Rating</th>
-                <th>Review Summary</th>
-            </tr>
-            <tr>
-                <td>Game 1</td>
-                <td>9/10</td>
-                <td>An amazing experience with breathtaking visuals.</td>
-            </tr>
-            <tr>
-                <td>Game 2</td>
-                <td>8/10</td>
-                <td>Engaging gameplay, but the story could be improved.</td>
-            </tr>
-        </table>
+        <div class="review-container">
+            <table>
+                <tr>
+                    <th>Game Title</th>
+                    <th>Rating</th>
+                    <th>Review Summary</th>
+                </tr>
+                <tr>
+                    <td>Game 1</td>
+                    <td>9/10</td>
+                    <td>An amazing experience with breathtaking visuals.</td>
+                </tr>
+                <tr>
+                    <td>Game 2</td>
+                    <td>8/10</td>
+                    <td>Engaging gameplay, but the story could be improved.</td>
+                </tr>
+            </table>
+        </div>
     </section>   
+
 </body>
 </html>
